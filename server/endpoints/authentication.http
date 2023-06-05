@@ -1,0 +1,15 @@
+@baseUrl = http://localhost:4009
+@urlPath = api/v1
+
+
+###
+POST {{baseUrl}}/{{urlPath}}/auth/login
+Content-Type: application/json
+Accept: application/json
+withCredentials: true
+
+{
+  "password": "peradetlic11",
+  "email": "test@test.com" 
+}
+
