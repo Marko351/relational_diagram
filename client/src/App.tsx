@@ -5,7 +5,7 @@ function App() {
 
   return (
     <h1 className={`text-xl font-bold underline tablet:text-3xl ${darkToggle && 'dark'}`}>
-      <p className='text-blue-200 dark:text-teal-800'>Text</p>
+      <p className='text-main dark:text-teal-800'>Text</p>
       Hello world!
     </h1>
   )
